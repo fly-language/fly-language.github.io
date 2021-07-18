@@ -2,7 +2,7 @@
 
 ## Index
 
-1. [What is FLY?](#what-is-fly?)
+1. [What is FLY?](#what-is-fly)
 2. [Basic Concepts](#basic-concepts)
     - [Types](#types)
 3. [Data Model Type](#data-model-type)
@@ -21,7 +21,8 @@
     - [Types Casting](#types-casting)
     - [Native Code](#native-code)
 6. [Advanced Features](#advanced-features)
-7. [Developer Documentation](#developer-documentation)
+7. [Examples](#examples)
+8. [Developer Documentation](#developer-documentation)
 
 ## What is FLY?
 
@@ -70,6 +71,12 @@
 ---
 
 ## Advanced Features
+
+---
+
+## Examples
+
+At this [repository](https://github.com/fly-language/fly-language_examples) there are some problems examples, solved by using FLY.
 
 ---
 
