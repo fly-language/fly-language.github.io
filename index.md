@@ -2,7 +2,7 @@
 
 ## Index
 
-1. [What is FLY?](#what-is-fly?)
+1. [What is FLY?](#what-is-fly)
 2. [Basic Concepts](#basic-concepts)
     - [Types](#types)
 3. [Data Model Type](#data-model-type)
