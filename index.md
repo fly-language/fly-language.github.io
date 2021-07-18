@@ -75,4 +75,4 @@
 
 ## Developer Documentation
 
-If you want to contribute to the FLY development, make sure to checkout the [developer specific documentation](./developerdoc.md).
+If you want to contribute to the FLY development, make sure to checkout the [developer specific documentation](./developerdoc.html).
