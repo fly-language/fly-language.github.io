@@ -4,7 +4,7 @@
 
 1. [What is FLY?](#what-is-fly?)
 2. [Basic Concepts](#basic-concepts)
-    - [Types](#yypes)
+    - [Types](#types)
 3. [Data Model Type](#data-model-type)
     - [Object Domain Type](#object-domain-type)
     - [Environment Domain Type](#environment-domain-type)
@@ -28,7 +28,7 @@
 
 ## Basic Concepts
 
-## Types
+### Types
 
 ---
 
