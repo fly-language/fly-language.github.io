@@ -21,6 +21,7 @@
     - [Types Casting](#types-casting)
     - [Native Code](#native-code)
 6. [Advanced Features](#advanced-features)
+7. [Developer Documentation](#developer-documentation)
 
 ## What is FLY?
 
@@ -69,3 +70,9 @@
 ---
 
 ## Advanced Features
+
+---
+
+## Developer Documentation
+
+If you want to contribute to the FLY development, make sure to checkout the [developer specific documentation](./developerdoc.md).
