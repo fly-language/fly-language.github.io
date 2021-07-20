@@ -2,13 +2,13 @@
 layout: default
 title: Fly Documentation
 nav_order: 1
-description: "what is fly"
-permalink: /
+description: "What is fly?"
+
 ---
 
 ## What is FLY?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum, lacus in condimentum suscipit, elit nibh convallis arcu, sed eleifend magna sapien eget dui. Pellentesque dictum, leo at dignissim pretium, nulla tortor convallis ex, vitae aliquam augue purus quis diam.
+LY is a domain-specific language, which aims at reconciling cloud and high-performance computing paradigms adopting a multicloud strategy by providing a powerful, effective, and pricing-efficient tool for developing scalable workflow-based scientific applications by exploiting different and at the same time FaaS cloud providers as computational backends in a transparent fashion
 
 ## Examples
 
