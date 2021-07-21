@@ -9,6 +9,9 @@ description: "What is fly?"
 # FLY a Domain Specific Language for scientific computing on the Multi Cloud
 
 Exploit the multi-cloud and HPC to achive better performance.
+{: .fs-6 .fw-300 }
+
+---
 
 ## What is FLY?
 
