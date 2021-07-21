@@ -54,7 +54,7 @@ FLY is compiled in native code (Java code) and it is able to automatically explo
 
 ## Installation
 
-Follow all those step to correct create a FLY Project.
+Follow all these step to correct create a FLY Project.
 
 ### Requirements
 
