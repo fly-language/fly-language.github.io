@@ -14,9 +14,11 @@ Exploit the multi-cloud and HPC to achive better performance.
 
 ---
 
-## Table of Content
-{:.no_toc}
-1.TOC {:toc}
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 
 ## What is FLY?
