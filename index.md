@@ -7,11 +7,17 @@ description: "What is fly?"
 ---
 
 # FLY a Domain Specific Language for scientific computing on the Multi Cloud
+{:.no_toc}
 
 Exploit the multi-cloud and HPC to achive better performance.
 {: .fs-6 .fw-300 }
 
 ---
+
+## Table of Content
+{:.no_toc}
+1.TOC {:toc}
+
 
 ## What is FLY?
 
@@ -27,11 +33,11 @@ FLY is compiled in native code (Java code) and it is able to automatically explo
 
 | Faas Cloud Computing Infrastructure | Supported          | Under development  | Future development |
 |:-------------------------------------:|:--------------------:|:--------------------:|:--------------------:|
-| Amazon AWS                          | :heavy_check_mark: |                    |                    |
-| Microsoft Azure                     | :heavy_check_mark: |                    |                    |
-| [LocalStack](https://localstack.cloud/)| :heavy_check_mark: |                 |                    |
-| Google Function                     |                    | :heavy_check_mark: |  |
-| IBM Bluemix/Apache OpenWhisk        |                    |                    | :heavy_check_mark: |
+| Amazon AWS                          | ✔️ |                    |                    |
+| Microsoft Azure                     | ✔️ |                    |                    |
+| [LocalStack](https://localstack.cloud/)| ✔️ |                 |                    |
+| Google Function                     |                    | ✔️ |  |
+| IBM Bluemix/Apache OpenWhisk        |                    |                    | ✔️ |
 
 ---
 
@@ -39,9 +45,9 @@ FLY is compiled in native code (Java code) and it is able to automatically explo
 
 |Faas Cloud Computing Infrastructure |Python | Javascript|
 |:-------------------------------------:|:--------------------:|:--------------------:|
-| Amazon AWS                               | :heavy_check_mark: |:heavy_check_mark:   |
-| Microsoft Azure                          | :heavy_check_mark: |:heavy_check_mark:   |
-| [LocalStack](https://localstack.cloud/)  | :heavy_check_mark: |:heavy_check_mark:   |
+| Amazon AWS                               | ✔️ |✔️   |
+| Microsoft Azure                          | ✔️ |✔️   |
+| [LocalStack](https://localstack.cloud/)  | ✔️ |✔️   |
 
 ## Installation
 
@@ -69,8 +75,8 @@ Follow all those step to correct create a FLY Project.
 
 1. Extract file _fly-project-quickstart.zip_
 2. From the terminal, navigate to the unzipped folder (in which should be contained a _pom.xml_ file)
-3. Run ```mvn install``` and wait its termination
-4. Run ```mvn archetype:crawl```
+3. Run `mvn install` and wait its termination
+4. Run `mvn archetype:crawl`
 5. In the new eclipse runtime, go in Preference -> Maven -> Archetypes -> Add Local Catalog... in the folder /home/user/.m2/repository select the file _archetype-catalog.xml_
 
 ### New FLY Project
