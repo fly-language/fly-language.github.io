@@ -20,6 +20,7 @@ Exploit the multi-cloud and HPC to achive better performance.
 1. TOC
 {:toc}
 
+---
 
 ## What is FLY?
 
@@ -41,8 +42,6 @@ FLY is compiled in native code (Java code) and it is able to automatically explo
 | Google Function                     |                    | ✔️ |  |
 | IBM Bluemix/Apache OpenWhisk        |                    |                    | ✔️ |
 
----
-
 ### Supported Languages
 
 |Faas Cloud Computing Infrastructure |Python | Javascript|
@@ -50,6 +49,8 @@ FLY is compiled in native code (Java code) and it is able to automatically explo
 | Amazon AWS                               | ✔️ |✔️   |
 | Microsoft Azure                          | ✔️ |✔️   |
 | [LocalStack](https://localstack.cloud/)  | ✔️ |✔️   |
+
+---
 
 ## Installation
 
