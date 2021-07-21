@@ -78,11 +78,18 @@ Follow this steps only the first time you install FLY.
 #### Install the Archetype
 {:.no_toc}
 
-1. Extract file _fly-project-quickstart.zip_
-2. From the terminal, navigate to the unzipped folder (in which should be contained a _pom.xml_ file)
-3. Run `mvn install` and wait its termination
-4. Run `mvn archetype:crawl`
-5. In the new eclipse runtime, go in Preference -> Maven -> Archetypes -> Add Local Catalog... in the folder /home/user/.m2/repository select the file _archetype-catalog.xml_
+Unpack the fly-project-quickstart.zip:
+```sh
+unzip fly-project-quickstart.zip
+```
+
+Go to to the top of folder fly-project-quickstart and install the maven archetype:
+
+```sh
+cd fly-project-quickstart/
+mvn install
+mvn archetype:crawl
+```
 
 ### New FLY Project
 
