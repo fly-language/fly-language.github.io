@@ -14,8 +14,8 @@ description: "What is fly?"
         Table of contents
     </summary>
     {: .text-delta }
-    1. TOC
-    {:toc}
+1. TOC
+{:toc}
 </details>
 
 ## What is FLY?
