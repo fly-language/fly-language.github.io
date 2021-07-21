@@ -52,9 +52,9 @@ FLY is compiled in native code (Java code) and it is able to automatically explo
 
 ---
 
-## Installation
+## Getting Started
 
-Follow all these step to correct create a FLY Project.
+Follow all these steps to correctly create a FLY Project.
 
 ### Requirements
 
@@ -66,7 +66,8 @@ Follow all these step to correct create a FLY Project.
 - Python 3
 - Node.js 8.10
 
-### Preliminar Procedure
+### First Installation
+Follow this steps only the first time you install FLY.
 
 1. Download FLY from GitHub repository;
 2. Import as Maven project the folder _FLY.compiler_
@@ -74,7 +75,7 @@ Follow all these step to correct create a FLY Project.
 4. Right click on folder _fly.parent_ -> Maven -> Update Project
 5. Right click on folder _org.xtext.FLY_ -> Run as -> Eclipse Application
 
-### Install the Archetype
+#### Install the Archetype
 
 1. Extract file _fly-project-quickstart.zip_
 2. From the terminal, navigate to the unzipped folder (in which should be contained a _pom.xml_ file)
