@@ -76,6 +76,7 @@ Follow this steps only the first time you install FLY.
 5. Right click on folder _org.xtext.FLY_ -> Run as -> Eclipse Application
 
 #### Install the Archetype
+{:no_toc}
 
 1. Extract file _fly-project-quickstart.zip_
 2. From the terminal, navigate to the unzipped folder (in which should be contained a _pom.xml_ file)
