@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Types
+title: Overview
 parent: Basic Concepts
-nav_order: 2
+nav_order: 1
 ---
+
