@@ -7,7 +7,8 @@ nav_order: 2
 # Overview
 {:.no_toc}
 
-The goal of FLY is to provide a portable, scalable and easy-to-use programming environment for scientific computing. 
+The goal of FLY is to provide a portable, scalable and easy-to-use programming environment for scientific computing.
+Later on, all the concepts here described will be properly studied in deep.
 {: .fs-6 .fw-300 }
 
 1. TOC 
@@ -78,3 +79,5 @@ FLY functions invocation, which interact via channels.
 ```js
 var ch = [type="channel"] on Cloud
 ```
+
+## Types
