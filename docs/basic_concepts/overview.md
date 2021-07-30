@@ -11,8 +11,6 @@ nav_order: 1
 The goal of FLY is to provide a portable, scalable and easy-to-use programming environment for scientific computing. 
 {: .fs-6 .fw-300 }
 
-<img src="../../assets/img/workflow.png" width="400"/>
-
 1. TOC 
 {:toc}
 
@@ -23,6 +21,8 @@ parallel computing architecture on which it is possible to execute some parts of
 limited knowledge about complex parallel and distributed systems) to design their applications exploiting data and task parallelism on any FlS architecture. This is achieved
 by a rich language that provides domain-specific constructs, that enable the developers
 to easily interact, using an environment abstraction, with different FaaS back-ends.
+
+<img src="../../assets/img/workflow.png" width="400"/>
 
 ## FLY Environments
 
