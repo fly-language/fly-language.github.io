@@ -11,6 +11,9 @@ The goal of FLY is to provide a portable, scalable and easy-to-use programming e
 Later on, all the concepts here described will be properly studied in deep.
 {: .fs-6 .fw-300 }
 
+## Table of contents
+{: .no_toc .text-delta }
+
 1. TOC 
 {:toc}
 
