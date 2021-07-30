@@ -5,3 +5,8 @@ search_enabled: false
 
 # Footer last edited timestamp
 footer_content: Visit our GitHub <a href="https://github.com/fly-language">repository</a>.
+
+# Aux links for the upper right navigation
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/pmarsceill/just-the-docs"
