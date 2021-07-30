@@ -22,7 +22,7 @@ limited knowledge about complex parallel and distributed systems) to design thei
 by a rich language that provides domain-specific constructs, that enable the developers
 to easily interact, using an environment abstraction, with different FaaS back-ends.
 
-<img src="../../assets/img/workflow.png" width="400"/>
+<img src="../assets/img/workflow.png" width="400"/>
 
 ## FLY Environments
 
