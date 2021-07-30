@@ -9,4 +9,5 @@ has_children: true
 {:.no_toc}
 
 In this section we are going to understand the concepts behind FLY and its development.
+Later on, all this concepts will be better explained.
 {: .fs-6 .fw-300 }
