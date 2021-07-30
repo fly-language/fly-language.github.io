@@ -11,7 +11,8 @@ nav_order: 1
 The goal of FLY is to provide a portable, scalable and easy-to-use programming environment for scientific computing. 
 {: .fs-6 .fw-300 }
 
-1. TOC {:toc}
+1. TOC 
+{:toc}
 
 ## Fly's Goal 
 
