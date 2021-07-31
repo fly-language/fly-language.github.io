@@ -27,6 +27,44 @@ to easily interact, using an environment abstraction, with different FaaS back-e
 
 <img src="../assets/img/workflow.png" width="400"/>
 
+## Basic concepts
+
+### Types
+
+FLY provides two sets of types named __basic__ and __domain__ types. __Basic__ types, inherited
+by Java, comprises _boolean_, _integer_, _real_ (double point precision floats) and _string_.
+Moreover, FLY supports __one/bi/three-dimensional array__ definition for basic types. In
+addition to basic types, FLY provides several __domain__ types that enable the users to
+interact and communicate with the computing back-ends.
+
+FLY is a __strongly typed language__ since is based on Java backend. Once a variable is defined, can not be assigned a different type value to it.
+
+### Variables and Constants
+
+To define a new variable FLY provide the `var` clause, followed by  an assignment operator (`=`) and it's initialization right-value.
+
+```js
+var <identifier> = <value>
+```
+
+To define a new constant FLY provide instead the `val` clause, also 
+followd by assignment operator and initialization value.
+
+```golang
+val <identifier> = <value>
+```
+Remember that constants are immutable, and can not change value after the initialization.
+
+### Identifiers
+Identifiers can be any kind of character either lowercase (a-z), or uppercase (A-Z). Other allowd characters are the underscore ( _ ) and digits (0-9).
+Any identifier can not starts with a digit.
+
+Each identifier it's __unique__ in the scope in which is defined, and can't be defined other variable with the same identifier in the same scope.
+
+### Semicolon?
+
+Even if FLY is based on Java, __no semicolon__ are needed at the end of each statement. Each statement just need a new-line character to be isolated by the others.
+
 ## FLY Environments
 
 FLY provides implicit support for parallel and distributed computing paradigms and
@@ -82,5 +120,3 @@ FLY functions invocation, which interact via channels.
 ```js
 var ch = [type="channel"] on Cloud
 ```
-
-## Types
