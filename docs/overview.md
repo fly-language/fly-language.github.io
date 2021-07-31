@@ -50,7 +50,7 @@ var <identifier> = <value>
 To define a new constant FLY provide instead the `val` clause, also 
 followed by assignment operator and initialization value.
 
-```golang
+```js
 val <identifier> = <value>
 ```
 Remember that constants are immutable, and can not change value after the initialization.
