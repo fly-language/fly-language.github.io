@@ -48,7 +48,7 @@ var <identifier> = <value>
 ```
 
 To define a new constant FLY provide instead the `val` clause, also 
-followd by assignment operator and initialization value.
+followed by assignment operator and initialization value.
 
 ```golang
 val <identifier> = <value>
@@ -63,7 +63,7 @@ Each identifier it's __unique__ in the scope in which is defined, and can't be d
 
 ### Semicolon?
 
-Even if FLY is based on Java, __no semicolon__ are needed at the end of each statement. Each statement just need a new-line character to be isolated by the others.
+Even if FLY is based on Java, __no semicolon__ are needed at the end of each statement. Each statement just needs a new-line character to be isolated by the others.
 
 ## FLY Environments
 
