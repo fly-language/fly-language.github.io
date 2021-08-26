@@ -1,0 +1,10 @@
+# Gemfiles and generated lock file
+Gemfile
+Gemfile.lock
+
+# docker compose
+docker-compose.yml
+
+# jekyll files
+_site
+.jekyll-cache
