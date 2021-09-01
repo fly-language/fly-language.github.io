@@ -2,5 +2,5 @@
 layout: default
 title: Communication Statement
 nav_order: 2
-parent: Data Model Type
+parent: Language Types
 ---
