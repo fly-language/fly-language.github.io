@@ -12,7 +12,11 @@ In this section we are going to study in deep all types provided by FLY.
 
 ---
 
-## List of Types
+## Table of Types
+{: .no_toc .text-delta }
+
+A short brief of all kind of data type in FLY
+{: .text-epsilon }
 
 |Type Name|Domain Specific|Variations|
 |:---:|:---:|:---:|
@@ -26,12 +30,9 @@ In this section we are going to study in deep all types provided by FLY.
 |Random|&#9744;||
 |Date|&#9744;||
 |Range|&#9744;||
-|Environment|&#9745;|SMP|
-|||AWS|
-|||Azure|
 |Channel|&#9745;||
-|Database|&#9745;|SQL|
-|||NoSQL|
+|Environment|&#9745;|_SMP_ - _AWS_ - _Azure_|
 |Dataframe|&#9745;||
-|Query|&#9745;||
 |File|&#9745;||
+|Database|&#9745;|_SQL_ - _NoSQL_|
+|Query|&#9745;||

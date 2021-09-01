@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Object Domain Type
+title: Objects
 nav_order: 1
 parent: Language Types
 ---
