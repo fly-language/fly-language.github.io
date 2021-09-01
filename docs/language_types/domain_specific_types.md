@@ -12,7 +12,7 @@ parent: Language Types
 Let's study in deep the FLY Object Domain Types
 {: .fs-6 .fw-300 }
 
-## Table of Content
+## Table of Contents 
 {: .no_toc .text-delta }
 1. TOC
 {:toc}
