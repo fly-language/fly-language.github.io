@@ -25,10 +25,10 @@ A short brief of all kind of data types in FLY
 |Boolean|&#9744;||
 |String|&#9744;||
 |Map (Dictionary)|&#9744;||
-|ArrayList|&#9744;||
+|Array|&#9744;||
 |Matrix|&#9744;||
 |Random|&#9744;||
-|Date|&#9744;||
+|Datetime|&#9744;||
 |Range|&#9744;||
 |Object|&#9745;||
 |Channel|&#9745;||

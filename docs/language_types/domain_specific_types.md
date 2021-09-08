@@ -9,9 +9,6 @@ parent: Language Types
 # Domain Specific Types
 {:.no_toc}
 
-Let's study in deep the FLY Object Domain Types
-{: .fs-6 .fw-300 }
-
 ## Table of Contents 
 {: .no_toc .text-delta }
 1. TOC
@@ -146,6 +143,7 @@ FLY has a specific focus on csv files managing them as a __Dataframe__ (similar 
 TODO scrivere la documentazione dei dataframe
 
 ### Database Connection
+TODO
 
 #### SQL
 
