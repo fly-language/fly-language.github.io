@@ -130,5 +130,5 @@ Random objects can generates random values as the following:
 ```js
 rand.nextBoolean() // generates Booleans
 rand.nextDouble() // generates Real numbers
-rand.nextInt() // generates Integer numbers
+rand.nextInt(MAX RAND) // generates Integer numbers
 ```
