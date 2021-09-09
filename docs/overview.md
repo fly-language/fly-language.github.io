@@ -65,6 +65,10 @@ Each identifier it's __unique__ in the scope in which is defined, and can't be d
 
 Even if FLY is based on Java, __no semicolon__ are needed at the end of each statement. Each statement just needs a new-line character to be isolated by the others.
 
+### Scope
+
+TODO
+
 ## FLY Environments
 
 FLY provides implicit support for parallel and distributed computing paradigms and
