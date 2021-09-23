@@ -140,13 +140,94 @@ If the environment will not be specified, FLY'll assume the file locally.
 
 FLY has a specific focus on csv files managing them as a __Dataframe__ (similar to R language dataframes). The memory is seen as a matrix structure, allowing the user to access to rows and columns, while it provides dedicated operations for querying, filtering, random access, etc.
 
-TODO scrivere la documentazione dei dataframe
+```js
+var table = [type="dataframe", table_name=STRING, source=(STRING | SQL_VARIABLE), separator=STRING, header=("true", "false"), query=STRING]
+```
+
+The syntax is the following:
+- __type__: must be "dataframe";
+- __table_name__: the STRING representing the name of the table;
+- __source__: the source from which obtain the table. Can be a _csv file path_ or a _SQL variable_;
+- __separator__: (only if _source_ is a _csv file_) the separator to use. Is an optional parameter and the default value is __","__;
+- __header__: (only if _source_ is a _csv file_) "true" if the file contains an header row to ignore, "false" otherwise. Is optional and the default value is "true".
+- __query__: (only if _source_ is a _SQL variable_) the query to retrive data from the file. Is an optional parameter and the default value is __"SELECT * FROM table_name"__;
 
 ### Database Connection
-TODO
+
+Database specific types can be used to interact with a SQL or a NoSQL Database instance.
+
+A prerequisite is that both the instance on the cloud provider and the database are already created as the creation of a new instance takes too long to start, which goes against the goal of providing high performance of FLY.
 
 #### SQL
 
+The following are three example of SQL database connection.
+
+Local Database connection:
+{:.text-delta}
+```js
+var dbLocal = [type="sql", db_name=STRING, user=STRING, password=STRING] on Local
+```
+
+AWS Database connection
+{:.text-delta}
+```js
+var dbAWS = [type="sql", instance=STRING, db_name=STRING, user=STRING, password=STRING] on CloudAWS
+```
+
+Azure Database connection
+{:.text-delta}
+```js
+var dbAzure = [type="sql", resource_group=STRING, instance=STRING, db_name=STRING, user=STRING, password=STRING] on CloudAzure
+```
+
+The syntax is specified by the following parameters:
+- __type__: must be "sql" for the SQL Database;
+- __db_name__: the name of the Database;
+- __resource_group__: (only on Azure): the resource group in which is hosted the Database instance;
+- __instance__: (only on Azure and AWS): the name of the instance on wich the Database is running;
+- __user__: the username to access to the Database instance;
+- __password__: the secret password to access to the Database instance;
+
 #### NoSQL
 
+FLY can also manage Database connection object that communicate with NoSQL Databases. The syntax is specified by the following parameters:
+- __type__: must be "nosql" for the NoSQL Databases;
+- __endpoint__: (only when _resource_group_ and _instance_ parameters are not specified) represents the database endpoint string;
+- __db_name__: the name of the Database;
+- __resource_group__: (only on Azure Database): the resource group in which is hosted the Database instance;
+- __instance__: (only on Azure and AWS): the name of the instance on wich the Database is running;
+- __collection__: the name of the database collection;
+- __properties__: (optional parameter) the absolute path of the file _log4j.properties_
+- __user__: the username to access to the Database instance;
+- __password__: the secret password to access to the Database instance;
+
 #### Query
+
+A Query Object domain can be used to make CRUD operations over Databases. 
+
+A Query variable can be defined with the following syntax for the SQL database interactions:
+```js
+var query = [type="query", query_type=("update" | "value"), connection=SQL_VARIABLE, string=QUERY_STRING]
+```
+
+- __type__: must be "query";
+- __query_type__: is the type of the query and can be _value_ if the query must return a table as a result (SELECT), or _update_ if the query must modify a value in the Database (INSERT / DELETE / UPDATE);
+- __connection__: is a variable of type SQL on which executing the query;
+- __string__: is the effective query to execute (eg. SELECT * FROM table). Can be also a string variable;
+
+Query objects can be used to make CRUD operation over NoSQL Databases. The syntax is very similar to the previous one:
+```js
+var query = [type="query", query_type=("select" | "insert" | "update" | "replace" | "delete"), connection=NOSQL_VARIABLE, string=QUERY_STRING]
+```
+
+The parameter description is the same of the SQL Database Query, the only difference is given by the _query_type_.
+
+
+Once the __Query__ variable is defined, can be used the _execute_ function to execute the query:
+```js
+var result = query.execute() // or just query.execute() if the query type is update
+```
+
+#### Distributed Query
+
+TODO da approfondire.
